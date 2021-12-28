@@ -42,6 +42,7 @@
     <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
     <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
     
+       
     
   </page>
   
@@ -51,9 +52,9 @@
     <agent img="golemtumba.png"          x='310' y='82'  width='200'   height='200'/>  
     <agent img="Tetx.png"  x='10' y='400'  width='485'   height='75'/>
     
-    <agent img='Rá.png'      x='40'  y='320.4'  width='110'   height='65' on-touch="_GOTO_PAGE:5"/>
-    <agent img='Osiris.png'  x='200' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:"/>
-    <agent img='Anubis.png'  x='350' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:"/>
+    <agent img='ra.png'      x='40'  y='320.4'  width='110'   height='65' on-touch="_GOTO_PAGE:5"/>
+    <agent img='Osiris.png'  x='200' y='320'    width='110'   height='65' on-touch="_NEXT_PAGE"/>
+    <agent img='Anubis.png'  x='350' y='320'    width='110'   height='65' on-touch="_NEXT_PAGE"/>
   
   
   </page>
@@ -79,6 +80,10 @@
     <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
     <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
     <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+    <agent img='baú.png' x='250' y='3' width='70' height='70'/>
+    <agent img="Title.png"  x='10' y='400'  width='485'   height='75'/>
+    <agent img="sim.png" x='40'  y='345.4'  width='110'   height='65' on-touch="_PREV_PAGE"/>
+    <agent img='nao.png'  x='350' y='345.0'    width='110'   height='65'/>
   </page>
   
   <page background="bgdesert (2).png">
@@ -124,5 +129,6 @@
     <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
     <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
     <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+    
   </page>
 </fable>
