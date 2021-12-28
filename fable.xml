@@ -1,6 +1,128 @@
 <fable>
-	<page>
-  
+	<page background="bgdesert.png">
+    <agent img="girl_idle_1.png"   x='0'   y='95' width='52'    height='57' on-touch="_PREV_PAGE"/>
+    <agent img='Bush (1).png'      x='150' y='93' width='220'   height='160'/>
+    <agent img="Skeleton.png"      x='70'  y='92' width='60'    height='25' />
+    <agent img="Cactus (1).png"    x='370'   y='95' width='52'  height='57' />
+
+    <agent img="nuvensdesert.png" x='-30'  y='-50'  width='565' height='565'/>
+    <agent img="SignArrow.png"     x='435'   y='95' width='52'  height='57' on-touch="_NEXT_PAGE"/>
+    <agent img="2.png" x='0'  y='-5'  width='100' height='100' />
+    <agent img='2.png' x='99'  y='-5' width='100' height='100'/> 
+    <agent img='2.png' x='198' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='297' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='396' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='495' y='-5' width='100' height='100'/>
+    <agent img='baú.png' x='250' y='3' width='70' height='70'/>
+    <agent img="Bone (1).png"      x='100'   y='10'  width='70'  height='70'/>
+    <agent img="Bone (2).png"      x='400'   y='10'  width='70'  height='70'/>
     
+    
+    </page>
+  
+  <page background="bgdesert.png">
+    
+    <agent img="pngegg (1).png"    x='-30'   y='-43' width='560'  height='570' />
+    <agent img='treecave.png'     x='10' y='95' width='200' height='205'/>
+    <agent img="girl_idle_1.png"   x='0'   y='95'  width='52'   height='57' on-touch="_PREV_PAGE"/>
+    <agent img="Golem1.png"          x='310' y='61'  width='200'   height='200' on-touch="_NEXT_PAGE"/>  
+    <agent img="2.png" x='0'   y='-5' width='100' height='100' />
+    <agent img='2.png' x='99'  y='-5' width='100' height='100'/> 
+    <agent img='2.png' x='198' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='297' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='396' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='495' y='-5' width='100' height='100'/>
+    <agent img='dinosaurskeleton.png' x='320' y='-15' width='120' height='80'/>
+    <agent img='caveira.png' x='110' y='15' width='50' height='50'/>
+    <agent img='Stone.png'   x='110' y='95' width='50' height='25'/>
+    <agent img='DeadBush.png'   x='200' y='95' width='50' height='25'/>
+    <agent img='Cactus (3).png'   x='270' y='95' width='70' height='75'/>
+    <agent img='DeadBush.png'   x='450' y='95' width='50' height='25'/>
+    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+    
+    
+  </page>
+  
+  <page background="interior tumba.jpg">
+    
+    <agent img="girl_idle_1.png"     x='200'   y='120'  width='52'   height='57' on-touch="_PREV_PAGE"/>
+    <agent img="golemtumba.png"          x='310' y='82'  width='200'   height='200'/>  
+    <agent img="Tetx.png"  x='10' y='400'  width='485'   height='75'/>
+    
+    <agent img='Rá.png'      x='40'  y='320.4'  width='110'   height='65' on-touch="_GOTO_PAGE:5"/>
+    <agent img='Osiris.png'  x='200' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:"/>
+    <agent img='Anubis.png'  x='350' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:"/>
+  
+  
+  </page>
+  
+  <page background="bgdesert.png">
+    
+    <agent img="pngegg (1).png"    x='-30'   y='-43' width='560'  height='570' />
+    <agent img='treecave.png'     x='10' y='95' width='200' height='205'/>
+    <agent img="girl_idle_1.png"   x='0'   y='95'  width='52'   height='57' />
+    <agent img="Golem1.png"          x='310' y='61'  width='200'   height='200' on-touch="_GOTO_PAGE:8"/>  
+    <agent img="2.png" x='0'   y='-5' width='100' height='100' />
+    <agent img='2.png' x='99'  y='-5' width='100' height='100'/> 
+    <agent img='2.png' x='198' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='297' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='396' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='495' y='-5' width='100' height='100'/>
+    <agent img='dinosaurskeleton.png' x='320' y='-15' width='120' height='80'/>
+    <agent img='caveira.png' x='110' y='15' width='50' height='50'/>
+    <agent img='Stone.png'   x='110' y='95' width='50' height='25'/>
+    <agent img='DeadBush.png'   x='200' y='95' width='50' height='25'/>
+    <agent img='Cactus (3).png'   x='270' y='95' width='70' height='75'/>
+    <agent img='DeadBush.png'   x='450' y='95' width='50' height='25'/>
+    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+  </page>
+  
+  <page background="bgdesert (2).png">
+    <agent img="nuvensdesert.png" x='-30'  y='0'  width='565' height='565'/>
+    <agent img='Cactus (3).png'     x='110' y='95' width='70' height='75'/>
+    <agent img='Cactus (1).png'     x='25'  y='95'  width='90' height='95'/>
+    <agent img="girl_idle_1.png"    x='0'   y='95'  width='52'   height='57'/>
+    
+    <agent img='1.png' x='400' y='193' width='100' height='100'/>
+    <agent img='4.png' x='400' y='94' width='100' height='100'/>
+    
+    
+    <agent img="door1.png" x="425" y="94" width="70"  height="116" on-trigger="open">
+      <open img="door2.png"  on-touch="unlocked"/>
+      <unlocked img="door3.png"/>
+    </agent>
+    
+    <agent img="pontpe1.png" x='395'  y='95'   width="25"  height="90" on-trigger="open">
+      <open img="pont2.png"  x='297'  y='69'   width="100"  height="25" />
+     </agent>
+   
+    
+    <agent img="pontepe.png" x='175'  y='95'   width="25"  height="90" on-trigger="open">
+      <open img="ponte.png"  x='197.7'  y='69'   width="100"  height="25" on-trigger="open" />
+    </agent>
+    
+    
+    <agent img="alavancaoriginal (3).png" x="110" y="90" width="40" height="60" on-touch="open">
+      <open img="alavancaoriginal (2).png" x="95" y="90" width="55" height="40"/>
+      </agent>
+    
+    
+    <agent img="2.png" x='0'   y='-5' width='100' height='100' />
+    <agent img='3.png' x='99'  y='-5' width='100' height='100'/>    
+    <agent img='Tile_27.png' x='198' y='31' width='100' height='100'/>
+    <agent img='Tile_27.png' x='297' y='31' width='100' height='100'/>
+    <agent img='1.png' x='396' y='-5' width='100' height='100'/>
+    <agent img='2.png' x='495' y='-5' width='100' height='100'/>
+    <agent img='Tile_28.png' x='198' y='-70' width='100' height='100'/>
+    <agent img='Tile_28.png' x='297' y='-70' width='100' height='100'/>
+    <agent img="Skeletoncave.png"  x="430"   y="292"  width="55" height='32'/>
+    <agent img="Bone (1).png"      x="430"   y="210"  width="55" height='58'/>
+    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
+    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
   </page>
 </fable>
